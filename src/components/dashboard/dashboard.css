@@ -1,0 +1,118 @@
+/* dashboard */
+.section {
+    display: block;
+    width: 45%;
+    padding: 0px 15px;
+    background-color: #435c70;
+}
+
+.tableSection {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    background-color: #435c70;
+    margin: 0 2.5rem;
+}
+
+.section_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-Wrap: wrap;
+}
+
+/* latestHits */
+.latestHits {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* performance */
+.heading {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 170px;
+    font-size: 1.2rem;
+}
+
+/* notification */
+.dropdown-list-image {
+    position: relative;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.dropdown-list-image img {
+    height: 4.5rem;
+    width: 4.5rem;
+    align-items: center;
+}
+
+.box-body {
+    background-color: #4e657a !important;
+    font-size: 95%;
+    margin-bottom: 15px;
+}
+
+.notification-link {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+
+/* Order-list  */
+
+.table thead{
+background-color: #486177;
+font-size: 16px;
+}
+.table tbody{
+background-color: #50697f;
+font-size: 14px;
+}
+
+.table th{
+    border-top: 1px solid #415a70;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding: 0.9rem 0.5rem;
+    border-bottom-width: 0px;
+}
+.table td {
+    border-top: 1px solid #415a70;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding: 0.9rem 0.5rem;
+    border-bottom-width: 0px;
+}
+
+.status-circle {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+.moving {
+    background-color: #9be64d;
+    box-shadow: 0 0 8px #9be64d, inset 0 0 8px #9be64d;
+}
+.pending {
+    background-color: #efc54b;
+    box-shadow: 0 0 8px #efc54b, inset 0 0 8px #efc54b;
+}
+.cancelled {
+    background-color: #da534f;
+    box-shadow: 0 0 8px #da534f, inset 0 0 8px #da534f;
+}
+.delivered {
+    background-color: #272c95;
+    box-shadow: 0 0 8px #272c95, inset 0 0 8px #272c95;
+}

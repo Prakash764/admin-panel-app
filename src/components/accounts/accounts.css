@@ -1,0 +1,111 @@
+.account-container {
+    width: 89%;
+    margin: 4rem;
+
+}
+
+h5 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    padding: 13px;
+    border-radius: 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+    color: #fff !important;
+    background-color: #54657d !important;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnVYyxbPgug6fS4S0DUnRXYVcHQQeuOb6DyRGvN4-0&shttps://icon2.cleanpng.com/20180203/paw/kisspng-menu-arrow-icon-down-arrow-png-transparent-image-5a756e457638b4.3161758215176453814842.jpg) no-repeat #54657d;
+    background-size: 30px 30px;
+    background-position: right; */
+    
+}
+
+.form-group label {
+    margin-bottom: 0.6rem;
+    color: #fff;
+}
+
+
+.avatar {
+    width: 30%;
+    padding: 2rem;
+    background-color: #435c70;
+    margin-top: 2rem;
+}
+
+.avtar-img-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-delete-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: rgba(57, 78, 100, 0.7);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.product-delete-link:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.product-delete-icon {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f5a623;
+    color: white;
+    border: 2px solid #f5a623;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.btn:hover {
+    color: #f5a623;
+    border: 2px solid #f5a623;
+}
+
+.settings {
+    width: 60%;
+    padding: 2rem;
+    background-color: #435c70;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 46%;
+    margin-right: 1rem;
+}
+
+.form-group input {
+    margin-bottom: 1rem;
+}

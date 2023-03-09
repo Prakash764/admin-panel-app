@@ -1,0 +1,141 @@
+.product_div {
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  
+  /* table section  */
+  /* .table-section {
+    padding: '3%';
+    background-color: '#435c70';
+    width: '60%';
+    
+  }
+  .category-section {
+    padding: '3%';
+    background-color: '#435c70';
+    width: '30%';
+    position: relative;
+    right: 25px;
+  } */
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table tbody {
+    background-color: #50697f;
+    font-size: 14px;
+  }
+  
+  .table thead {
+    background-color: #486177;
+    font-size: 16px;
+  }
+  
+  .table th {
+    border-top: 1px solid #415a70;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding: 0.9rem 0.5rem;
+    border-bottom-width: 0px;
+    font-size: 0.9rem;
+  }
+  
+  .table td {
+    border-top: 1px solid #415a70;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding: 0.9rem 0.5rem;
+    border-bottom-width: 0px;
+    font-size: 0.9rem;
+  }
+  
+  .table_body tr:hover {
+    background-color: #607e96;
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    background-color: #394e64;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px;
+    transition: all 0.1s linear;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: url(https://spng.pngfind.com/pngs/s/216-2167982_check-mark-white-tick-icon-no-background-hd.png) #394e64 center no-repeat;
+    background-size: 1.5rem;
+  }
+  
+  .myproduct-delete-link {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #394e64;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: none;
+  }
+  
+  .myproduct-delete-icon {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .myproduct-delete-icon:hover {
+    color: #7e8b9a;
+  }
+  
+  .btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f5a623;
+    color: white;
+    border: 2px solid #f5a623;
+    border-radius: 0;
+  }
+  
+  .btn:hover {
+    color: #f5a623;
+    border: 2px solid #f5a623;
+  }
+  .btn:focus {
+    color:#f5a623;
+    border-color: #f5a623 ;
+    outline: none;
+  }
+   
+  
+  .myheading{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.3rem;
+  }
+  .form_control {
+    padding: 13px;
+    border-radius: 0;
+    height: 50px;
+    width: 88%;
+    border: none;
+    background-color: #54657d;
+    color: #fff;
+  }
+  
+  .modal-content{
+    background-color: #455c71;
+  }
